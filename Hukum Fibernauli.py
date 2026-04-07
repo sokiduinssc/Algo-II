@@ -1,0 +1,10 @@
+print(" A = Luas Penampang Sayap Pesawat ( m2 ), Rho = Kerapatan Udara ( kg/m3), va = Kecepatan aliran udara diatas sayap pesawat (m/s), vb = Kecepatan aliran udara dibawah sayap pewawat ( m/s)")
+print(" Inputkan Nilai A = ")
+a = float(input())
+print("Inputkan nilai vb ")
+print(" Syarat Nilai vb > va ")
+vb = float(input())
+print(" INputkan nilai va =")
+va = float(input())
+f = 0.5 * 1.3 * a * vb ** 2 - va ** 2
+print(" Gaya angkat Pesawat ( F ) tersebut adalah =" + str(f))
